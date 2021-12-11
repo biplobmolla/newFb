@@ -1,0 +1,53 @@
+@media (max-width: 1135px) {
+    #plus,#wifi {
+        display: none;
+    }
+
+    #plus2,#wifi2 {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 850px) {
+    header .profile {
+        width: 30vw;
+        height: 30vw;
+        margin-top: -15vw;
+    }
+
+    header .buttons {
+        position: absolute;
+        right: 15px;
+    }
+
+    header .buttons a {
+        font-size: 12px;
+        padding: 4px 10px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 900px) {
+    header .cover .max-width img {
+        height: 100%;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+    header .profile {
+        width: 50vw;
+        height: 50vw;
+        margin-top: -25vw;
+    }
+
+    header .buttons {
+        position: absolute;
+        right: 6px;
+    }
+
+    #plus2,#wifi2 {
+        padding: 4px;
+        margin-right: 2px;
+    }
+}
